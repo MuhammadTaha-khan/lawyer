@@ -23,10 +23,6 @@ import Contact from './pages/Contact';
 import Pagesblog from './pages/Pagesblog';
 import BookAppointment from './Appointment/BookAppointment';
 import Calender from './Appointment/Calender';
-// import Timing from './Appointment/Timing';
-// import Basicinfo from './Appointment/Basicinfo';
-// import Summary from './Appointment/Summary';
-// import PointNav from './Appointment/PointNav';
 
 function App() {
     return (
@@ -82,17 +78,11 @@ function App() {
                    
                     <Route path="/contact" element={<Contact/> } /> 
                     <Route path="/faqs" element={<Question/> } /> 
-                    {/* <Route path="/Appservice" element={{}} />  */}
                     <Route path="/calender" element={<Calender/>} /> 
+                    <Route path="/BookApp" element={<BookAppointment/>} /> 
 
 
                 </Routes>
-                {/* <PointNav/> */}
-                <BookAppointment/> 
-                {/* <Calender/>
-                <Timing/>
-                <Basicinfo/>
-                <Summary/> */}
                 <Newsletter/>
                 <Footer/>
             </div>

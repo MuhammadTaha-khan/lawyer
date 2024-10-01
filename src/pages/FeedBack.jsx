@@ -25,30 +25,6 @@ const FeedBack = () => {
             profession: 'Profession',
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan lacus eget velit',
         },
-    //     {
-    //         img: testimonial4,
-    //         name: 'Client Name',
-    //         profession: 'Profession',
-    //         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan lacus eget velit',
-    //     },
-    //     {
-    //         img: testimonial1,
-    //         name: 'Client Name',
-    //         profession: 'Profession',
-    //         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan lacus eget velit',
-    //     },
-    //     {
-    //         img: testimonial2,
-    //         name: 'Client Name',
-    //         profession: 'Profession',
-    //         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan lacus eget velit',
-    //     },
-    //     {
-    //         img: testimonial3,
-    //         name: 'Client Name',
-    //         profession: 'Profession',
-    //         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan lacus eget velit',
-    //     },
     ];
     return (
 

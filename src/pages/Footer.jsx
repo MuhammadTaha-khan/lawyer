@@ -43,12 +43,6 @@ const Footer = () => {
                                     <NavLink to="/team" className="nav-item nav-link" onClick={ScrollToTop}>Attorneys</NavLink>
                                     <NavLink to="/portfolio" className="nav-item nav-link" onClick={ScrollToTop}>Case Studies</NavLink>
                                     <NavLink to="/faqs" className="nav-item nav-link" onClick={ScrollToTop}>FAQs</NavLink>
-
-                                    {/* <a href="#">About Us</a>
-                                    <a href="#">Practices</a>
-                                    <a href="#">Attorneys</a>
-                                    <a href="#">Case Studies</a>
-                                    <a href="#">FAQs</a> */}
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-4">

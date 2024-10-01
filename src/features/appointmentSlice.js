@@ -27,9 +27,15 @@ const appointmentSlice = createSlice({
     setTime: (state, action) => {
       state.time = action.payload;
     },
+    // setBasicDetails: (state, action) => {
+    //   state.basicDetails = action.payload;
+    // },
     setBasicDetails: (state, action) => {
-      state.basicDetails = action.payload;
-    }
+      state.basicDetails = {
+        ...state.basicDetails,
+        ...action.payload
+      };
+    },
   }
 });
 

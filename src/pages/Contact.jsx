@@ -60,13 +60,6 @@ function Contact() {
                                 <FaTwitter/>
                             </a>
                         </Col>
-                                    {/* <div className="footer-social">
-                                        <a href="#"><FaTwitter/></a>
-                                        <a href="#"><FaFacebookF/></a>
-                                        <a href="#"><FaYoutube/></a>
-                                        <a href="#"><FaInstagram/></a>
-                                        <a href="#"><FaLinkedinIn/></a>
-                                    </div> */}
                     </Col>
                     <Col md={6} className="msg-card-right">
                         <h2>Get In Touch With Us</h2>

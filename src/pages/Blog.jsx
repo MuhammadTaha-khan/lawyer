@@ -4,7 +4,6 @@ import {Container,Row,Col} from 'react-bootstrap'
 import blog1 from '../img/blog-1.jpg'
 import blog2 from '../img/blog-2.jpg'
 import blog3 from '../img/blog-3.jpg'
-// import { FaListAlt, FaCalendarAlt } from 'react-icons/fa';
 
 const Blog = () => {
     const blogPosts = [
@@ -29,34 +28,6 @@ const Blog = () => {
             date: '01-Jan-2045',
             description: 'Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor',
         },
-        // {
-        //     img: blog1,
-        //     title: 'Lorem ipsum dolor',
-        //     category: 'Education Law',
-        //     date: '01-Jan-2045',
-        //     description: 'Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor',
-        // },
-        // {
-        //     img: blog2,
-        //     title: 'Lorem ipsum dolor',
-        //     category: 'Criminal Law',
-        //     date: '01-Jan-2045',
-        //     description: 'Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor',
-        // },
-        // {
-        //     img: blog3,
-        //     title: 'Lorem ipsum dolor',
-        //     category: 'Cyber Law',
-        //     date: '01-Jan-2045',
-        //     description: 'Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor',
-        // },
-        // {
-        //     img: blog1,
-        //     title: 'Lorem ipsum dolor',
-        //     category: 'Business Law',
-        //     date: '01-Jan-2045',
-        //     description: 'Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor',
-        // },
     ];
 
     return (

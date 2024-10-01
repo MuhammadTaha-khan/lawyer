@@ -46,7 +46,7 @@ function NavigationBar() {
               </Nav>
               <Nav className="ms-auto">
                 {/* <Nav.Link href="#" className="btn">Get Appointment</Nav.Link> */}
-                <NavLink to="/Appservice" className="Nv-button" activeClassName="active">Get Appointment</NavLink>
+                <NavLink to="/BookApp" className="Nv-button" activeClassName="active">Get Appointment</NavLink>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
