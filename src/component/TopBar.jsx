@@ -22,7 +22,8 @@ const TopBar = () => {
                             </div>
                             <div className="text">
                                 <a href="https://wa.me/92186064657" target="_blank" rel="noopener noreferrer">
-                                    <h2>+923018223044</h2>
+                                    {/* <h2>+923018223044</h2> */}
+                                    <h2>+9230000000</h2>
                                 </a>
                                 <p>Call Us For Free Consultation</p>
                             </div>

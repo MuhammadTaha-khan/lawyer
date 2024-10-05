@@ -49,11 +49,8 @@
 .dropdown-toggle{
     background-color: #333 !important;
 }
-/* -----------------------------------------------------timing------------------------------------ */
-.MuiPickersLayout-contentWrapper{
-    background-color: #333;
-    color: white;
-}
+/* ------------------------------------------------calender-----timing------------------------------------ */
+
 .MuiDayCalendar-weekDayLabel{
     color: white !important;
 }

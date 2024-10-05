@@ -36,17 +36,21 @@ const Timing = () => {
     <Container>
       <div className="">
         <Card>
-          <Card.Body >
+          <Card.Body>
             <Card.Title>Time Slot</Card.Title>
             <Row style={{ display: 'flex', flexDirection: 'column' }}>
-              <Col >
+              <Col>
                 <h5>Morning</h5>
                 {timeSlots.morning.map((slot, index) => (
                   <Button
                     key={index}
-                    variant={selectedSlot === slot ? 'primary' : 'outline-primary'}
                     className="m-1 col-md-5"
                     onClick={() => handleSlotClick(slot)}
+                    style={{
+                      backgroundColor: selectedSlot === slot ? '#aa9166' : 'transparent',
+                      color: selectedSlot === slot ? '#fff' : '#aa9166',
+                      borderColor: '#aa9166',
+                    }}
                   >
                     {slot}
                   </Button>
@@ -57,9 +61,13 @@ const Timing = () => {
                 {timeSlots.afternoon.map((slot, index) => (
                   <Button
                     key={index}
-                    variant={selectedSlot === slot ? 'primary' : 'outline-primary'}
                     className="m-1 col-md-5"
                     onClick={() => handleSlotClick(slot)}
+                    style={{
+                      backgroundColor: selectedSlot === slot ? '#aa9166' : 'transparent',
+                      color: selectedSlot === slot ? '#fff' : '#aa9166',
+                      borderColor: '#aa9166',
+                    }}
                   >
                     {slot}
                   </Button>
@@ -69,20 +77,8 @@ const Timing = () => {
           </Card.Body>
         </Card>
       </div>
-
     </Container>
   );
 };
 
 export default Timing;
-
-
-
-
-
-
-
-
-
-
-
